@@ -6,7 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document Title</title>
     <style>
+        div li {
+            list-style: none;
+        }
 
+        a:link, a:visited {
+            text-decoration: none;
+            background-color: rgb(102, 184, 170);
+            border: 1px solid rgb(23, 87, 84);
+            color: rgb(28, 82, 95);
+            display: block;
+            width: 200px;
+            text-align: center;
+            margin-bottom: 1px;
+        }
+
+        a:hover, a:active {
+            background-color: rgb(140, 238, 255);
+        }
+
+        div li:nth-child(3) {
+            font-size: 24px;
+        }
+
+        section div:nth-child(odd) {
+            background-color: rgb(156, 198, 218);
+        }
+
+        section div:nth-child(4):hover {
+            background-color: rgb(245, 230, 146);
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
@@ -17,10 +47,25 @@
         <p>Syncronización del browser.</p>
         <p>Browser Sync 2.</p>
 
+    <div>
         <ul>
             <li><a href="#" onclick="return false;">Home</a></li>
             <li><a href="#" onclick="return false;">Angular</a></li>
             <li><a href="#" onclick="return false;">Facebook</a></li>
         </ul>
+    </div>
+
+    <section>
+        <div>Div 1</div>
+        <div>Div 2</div>
+        <div>Div 3</div>
+        <div>Div 4</div>
+        <div>Div 5</div>
+        <div>Div 6</div>
+        <div>Div 7</div>
+        <div>Div 8</div>
+        <div>Div 9</div>
+        <div>Div 10</div>
+    </section>
 </body>
 </html>
