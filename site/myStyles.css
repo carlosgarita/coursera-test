@@ -12,7 +12,7 @@ body {
     padding: 0;
     /*Estas reglas no aplicaban a h1, pq las reglas para el margen del
     h1 estaban definidas en el borwser, 
-    y éstas ganaban por especificidad.*/
+    y éstas ganaban por especificidad. Test*/
 }
 
 div li {
