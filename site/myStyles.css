@@ -41,6 +41,12 @@ a:link, a:visited {
     margin-bottom: 1px;
 }
 
+#bg {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(180, 255, 158);
+}
+
 a:hover, a:active {
     background-color: rgb(140, 238, 255);
 }
@@ -54,6 +60,6 @@ section div:nth-child(odd) {
 }
 
 section div:nth-child(4):hover {
-    background-color: rgb(245, 230, 146);
+    background-color: rgb(149, 245, 146);
     cursor: pointer;
 }
